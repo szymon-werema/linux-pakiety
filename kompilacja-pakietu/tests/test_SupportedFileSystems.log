@@ -1,0 +1,586 @@
+Running main() from test_SupportedFileSystems.cc
+DISPLAY=":0.0"
+[==========] Running 210 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 210 tests from My/SupportedFileSystemsTest
+[ RUN      ] My/SupportedFileSystemsTest.Create/btrfs
+test_SupportedFileSystems.cc:496: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.Create/btrfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.Create/exfat
+[       OK ] My/SupportedFileSystemsTest.Create/exfat (4 ms)
+[ RUN      ] My/SupportedFileSystemsTest.Create/ext2
+[       OK ] My/SupportedFileSystemsTest.Create/ext2 (4 ms)
+[ RUN      ] My/SupportedFileSystemsTest.Create/ext3
+[       OK ] My/SupportedFileSystemsTest.Create/ext3 (14 ms)
+[ RUN      ] My/SupportedFileSystemsTest.Create/ext4
+[       OK ] My/SupportedFileSystemsTest.Create/ext4 (5 ms)
+[ RUN      ] My/SupportedFileSystemsTest.Create/f2fs
+test_SupportedFileSystems.cc:496: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.Create/f2fs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.Create/fat16
+[       OK ] My/SupportedFileSystemsTest.Create/fat16 (3 ms)
+[ RUN      ] My/SupportedFileSystemsTest.Create/fat32
+[       OK ] My/SupportedFileSystemsTest.Create/fat32 (8 ms)
+[ RUN      ] My/SupportedFileSystemsTest.Create/hfs
+test_SupportedFileSystems.cc:496: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.Create/hfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.Create/hfsplus
+test_SupportedFileSystems.cc:496: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.Create/hfsplus (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.Create/jfs
+test_SupportedFileSystems.cc:496: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.Create/jfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.Create/linuxswap
+[       OK ] My/SupportedFileSystemsTest.Create/linuxswap (4 ms)
+[ RUN      ] My/SupportedFileSystemsTest.Create/luks
+test_SupportedFileSystems.cc:496: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.Create/luks (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.Create/lvm2pv
+test_SupportedFileSystems.cc:496: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.Create/lvm2pv (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.Create/minix
+[       OK ] My/SupportedFileSystemsTest.Create/minix (9 ms)
+[ RUN      ] My/SupportedFileSystemsTest.Create/nilfs2
+test_SupportedFileSystems.cc:496: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.Create/nilfs2 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.Create/ntfs
+[       OK ] My/SupportedFileSystemsTest.Create/ntfs (5 ms)
+[ RUN      ] My/SupportedFileSystemsTest.Create/reiser4
+test_SupportedFileSystems.cc:496: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.Create/reiser4 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.Create/reiserfs
+test_SupportedFileSystems.cc:496: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.Create/reiserfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.Create/udf
+test_SupportedFileSystems.cc:496: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.Create/udf (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.Create/xfs
+test_SupportedFileSystems.cc:496: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.Create/xfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/btrfs
+test_SupportedFileSystems.cc:507: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/btrfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/exfat
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/exfat (6 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/ext2
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/ext2 (8 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/ext3
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/ext3 (21 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/ext4
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/ext4 (8 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/f2fs
+test_SupportedFileSystems.cc:507: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/f2fs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/fat16
+test_SupportedFileSystems.cc:508: Skip test.  read not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/fat16 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/fat32
+test_SupportedFileSystems.cc:508: Skip test.  read not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/fat32 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/hfs
+test_SupportedFileSystems.cc:507: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/hfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/hfsplus
+test_SupportedFileSystems.cc:507: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/hfsplus (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/jfs
+test_SupportedFileSystems.cc:507: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/jfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/linuxswap
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/linuxswap (4 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/luks
+test_SupportedFileSystems.cc:507: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/luks (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/lvm2pv
+test_SupportedFileSystems.cc:507: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/lvm2pv (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/minix
+test_SupportedFileSystems.cc:508: Skip test.  read not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/minix (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/nilfs2
+test_SupportedFileSystems.cc:507: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/nilfs2 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/ntfs
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/ntfs (7 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/reiser4
+test_SupportedFileSystems.cc:507: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/reiser4 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/reiserfs
+test_SupportedFileSystems.cc:507: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/reiserfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/udf
+test_SupportedFileSystems.cc:507: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/udf (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUsage/xfs
+test_SupportedFileSystems.cc:507: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUsage/xfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/btrfs
+test_SupportedFileSystems.cc:537: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/btrfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/exfat
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/exfat (6 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/ext2
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/ext2 (6 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/ext3
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/ext3 (17 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/ext4
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/ext4 (7 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/f2fs
+test_SupportedFileSystems.cc:537: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/f2fs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/fat16
+test_SupportedFileSystems.cc:538: Skip test.  read_label not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/fat16 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/fat32
+test_SupportedFileSystems.cc:538: Skip test.  read_label not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/fat32 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/hfs
+test_SupportedFileSystems.cc:537: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/hfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/hfsplus
+test_SupportedFileSystems.cc:537: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/hfsplus (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/jfs
+test_SupportedFileSystems.cc:537: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/jfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/linuxswap
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/linuxswap (5 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/luks
+test_SupportedFileSystems.cc:537: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/luks (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/lvm2pv
+test_SupportedFileSystems.cc:537: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/lvm2pv (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/minix
+test_SupportedFileSystems.cc:538: Skip test.  read_label not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/minix (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/nilfs2
+test_SupportedFileSystems.cc:537: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/nilfs2 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/ntfs
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/ntfs (7 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/reiser4
+test_SupportedFileSystems.cc:537: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/reiser4 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/reiserfs
+test_SupportedFileSystems.cc:537: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/reiserfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/udf
+test_SupportedFileSystems.cc:537: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/udf (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadLabel/xfs
+test_SupportedFileSystems.cc:537: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadLabel/xfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/btrfs
+test_SupportedFileSystems.cc:560: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/btrfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/exfat
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/exfat (5 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/ext2
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/ext2 (6 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/ext3
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/ext3 (17 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/ext4
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/ext4 (8 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/f2fs
+test_SupportedFileSystems.cc:560: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/f2fs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/fat16
+test_SupportedFileSystems.cc:561: Skip test.  read_uuid not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/fat16 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/fat32
+test_SupportedFileSystems.cc:561: Skip test.  read_uuid not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/fat32 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/hfs
+test_SupportedFileSystems.cc:560: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/hfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/hfsplus
+test_SupportedFileSystems.cc:560: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/hfsplus (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/jfs
+test_SupportedFileSystems.cc:560: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/jfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/linuxswap
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/linuxswap (5 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/luks
+test_SupportedFileSystems.cc:560: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/luks (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/lvm2pv
+test_SupportedFileSystems.cc:560: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/lvm2pv (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/minix
+test_SupportedFileSystems.cc:561: Skip test.  read_uuid not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/minix (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/nilfs2
+test_SupportedFileSystems.cc:560: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/nilfs2 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/ntfs
+test_SupportedFileSystems.cc:561: Skip test.  read_uuid not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/ntfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/reiser4
+test_SupportedFileSystems.cc:560: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/reiser4 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/reiserfs
+test_SupportedFileSystems.cc:560: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/reiserfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/udf
+test_SupportedFileSystems.cc:560: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/udf (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndReadUUID/xfs
+test_SupportedFileSystems.cc:560: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndReadUUID/xfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/btrfs
+test_SupportedFileSystems.cc:590: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/btrfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/exfat
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/exfat (7 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/ext2
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/ext2 (7 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/ext3
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/ext3 (16 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/ext4
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/ext4 (7 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/f2fs
+test_SupportedFileSystems.cc:590: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/f2fs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/fat16
+test_SupportedFileSystems.cc:591: Skip test.  write_label not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/fat16 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/fat32
+test_SupportedFileSystems.cc:591: Skip test.  write_label not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/fat32 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/hfs
+test_SupportedFileSystems.cc:590: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/hfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/hfsplus
+test_SupportedFileSystems.cc:590: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/hfsplus (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/jfs
+test_SupportedFileSystems.cc:590: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/jfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/linuxswap
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/linuxswap (5 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/luks
+test_SupportedFileSystems.cc:590: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/luks (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/lvm2pv
+test_SupportedFileSystems.cc:590: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/lvm2pv (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/minix
+test_SupportedFileSystems.cc:591: Skip test.  write_label not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/minix (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/nilfs2
+test_SupportedFileSystems.cc:590: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/nilfs2 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/ntfs
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/ntfs (7 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/reiser4
+test_SupportedFileSystems.cc:590: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/reiser4 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/reiserfs
+test_SupportedFileSystems.cc:590: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/reiserfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/udf
+test_SupportedFileSystems.cc:590: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/udf (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteLabel/xfs
+test_SupportedFileSystems.cc:590: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteLabel/xfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/btrfs
+test_SupportedFileSystems.cc:607: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/btrfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/exfat
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/exfat (5 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/ext2
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/ext2 (7 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/ext3
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/ext3 (18 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/ext4
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/ext4 (8 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/f2fs
+test_SupportedFileSystems.cc:607: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/f2fs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/fat16
+test_SupportedFileSystems.cc:608: Skip test.  write_uuid not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/fat16 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/fat32
+test_SupportedFileSystems.cc:608: Skip test.  write_uuid not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/fat32 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/hfs
+test_SupportedFileSystems.cc:607: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/hfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/hfsplus
+test_SupportedFileSystems.cc:607: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/hfsplus (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/jfs
+test_SupportedFileSystems.cc:607: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/jfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/linuxswap
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/linuxswap (4 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/luks
+test_SupportedFileSystems.cc:607: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/luks (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/lvm2pv
+test_SupportedFileSystems.cc:607: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/lvm2pv (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/minix
+test_SupportedFileSystems.cc:608: Skip test.  write_uuid not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/minix (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/nilfs2
+test_SupportedFileSystems.cc:607: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/nilfs2 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/ntfs
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/ntfs (15 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/reiser4
+test_SupportedFileSystems.cc:607: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/reiser4 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/reiserfs
+test_SupportedFileSystems.cc:607: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/reiserfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/udf
+test_SupportedFileSystems.cc:607: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/udf (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndWriteUUID/xfs
+test_SupportedFileSystems.cc:607: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndWriteUUID/xfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/btrfs
+test_SupportedFileSystems.cc:622: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/btrfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/exfat
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/exfat (6 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/ext2
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/ext2 (18 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/ext3
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/ext3 (29 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/ext4
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/ext4 (9 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/f2fs
+test_SupportedFileSystems.cc:622: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/f2fs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/fat16
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/fat16 (13 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/fat32
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/fat32 (18 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/hfs
+test_SupportedFileSystems.cc:622: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/hfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/hfsplus
+test_SupportedFileSystems.cc:622: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/hfsplus (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/jfs
+test_SupportedFileSystems.cc:622: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/jfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/linuxswap
+test_SupportedFileSystems.cc:623: Skip test.  check not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/linuxswap (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/luks
+test_SupportedFileSystems.cc:622: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/luks (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/lvm2pv
+test_SupportedFileSystems.cc:622: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/lvm2pv (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/minix
+test_SupportedFileSystems.cc:625: Skip test.  Test disabled for file system
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/minix (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/nilfs2
+test_SupportedFileSystems.cc:622: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/nilfs2 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/ntfs
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/ntfs (7 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/reiser4
+test_SupportedFileSystems.cc:622: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/reiser4 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/reiserfs
+test_SupportedFileSystems.cc:622: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/reiserfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/udf
+test_SupportedFileSystems.cc:622: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/udf (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndCheck/xfs
+test_SupportedFileSystems.cc:622: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndCheck/xfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/btrfs
+test_SupportedFileSystems.cc:637: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/btrfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/exfat
+test_SupportedFileSystems.cc:638: Skip test.  remove not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/exfat (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/ext2
+test_SupportedFileSystems.cc:638: Skip test.  remove not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/ext2 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/ext3
+test_SupportedFileSystems.cc:638: Skip test.  remove not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/ext3 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/ext4
+test_SupportedFileSystems.cc:638: Skip test.  remove not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/ext4 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/f2fs
+test_SupportedFileSystems.cc:637: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/f2fs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/fat16
+test_SupportedFileSystems.cc:638: Skip test.  remove not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/fat16 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/fat32
+test_SupportedFileSystems.cc:638: Skip test.  remove not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/fat32 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/hfs
+test_SupportedFileSystems.cc:637: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/hfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/hfsplus
+test_SupportedFileSystems.cc:637: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/hfsplus (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/jfs
+test_SupportedFileSystems.cc:637: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/jfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/linuxswap
+test_SupportedFileSystems.cc:638: Skip test.  remove not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/linuxswap (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/luks
+test_SupportedFileSystems.cc:637: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/luks (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/lvm2pv
+test_SupportedFileSystems.cc:637: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/lvm2pv (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/minix
+test_SupportedFileSystems.cc:638: Skip test.  remove not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/minix (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/nilfs2
+test_SupportedFileSystems.cc:637: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/nilfs2 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/ntfs
+test_SupportedFileSystems.cc:638: Skip test.  remove not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/ntfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/reiser4
+test_SupportedFileSystems.cc:637: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/reiser4 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/reiserfs
+test_SupportedFileSystems.cc:637: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/reiserfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/udf
+test_SupportedFileSystems.cc:637: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/udf (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndRemove/xfs
+test_SupportedFileSystems.cc:637: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndRemove/xfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/btrfs
+test_SupportedFileSystems.cc:652: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/btrfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/exfat
+test_SupportedFileSystems.cc:653: Skip test.  grow not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/exfat (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/ext2
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/ext2 (34 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/ext3
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/ext3 (43 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/ext4
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/ext4 (14 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/f2fs
+test_SupportedFileSystems.cc:652: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/f2fs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/fat16
+test_SupportedFileSystems.cc:653: Skip test.  grow not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/fat16 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/fat32
+test_SupportedFileSystems.cc:653: Skip test.  grow not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/fat32 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/hfs
+test_SupportedFileSystems.cc:652: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/hfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/hfsplus
+test_SupportedFileSystems.cc:652: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/hfsplus (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/jfs
+test_SupportedFileSystems.cc:652: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/jfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/linuxswap
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/linuxswap (7 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/luks
+test_SupportedFileSystems.cc:652: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/luks (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/lvm2pv
+test_SupportedFileSystems.cc:652: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/lvm2pv (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/minix
+test_SupportedFileSystems.cc:653: Skip test.  grow not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/minix (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/nilfs2
+test_SupportedFileSystems.cc:652: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/nilfs2 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/ntfs
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/ntfs (11 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/reiser4
+test_SupportedFileSystems.cc:652: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/reiser4 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/reiserfs
+test_SupportedFileSystems.cc:652: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/reiserfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/udf
+test_SupportedFileSystems.cc:652: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/udf (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndGrow/xfs
+test_SupportedFileSystems.cc:652: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndGrow/xfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/btrfs
+test_SupportedFileSystems.cc:672: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/btrfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/exfat
+test_SupportedFileSystems.cc:673: Skip test.  shrink not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/exfat (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/ext2
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/ext2 (12 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/ext3
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/ext3 (24 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/ext4
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/ext4 (46 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/f2fs
+test_SupportedFileSystems.cc:672: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/f2fs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/fat16
+test_SupportedFileSystems.cc:673: Skip test.  shrink not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/fat16 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/fat32
+test_SupportedFileSystems.cc:673: Skip test.  shrink not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/fat32 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/hfs
+test_SupportedFileSystems.cc:672: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/hfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/hfsplus
+test_SupportedFileSystems.cc:672: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/hfsplus (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/jfs
+test_SupportedFileSystems.cc:672: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/jfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/linuxswap
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/linuxswap (6 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/luks
+test_SupportedFileSystems.cc:672: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/luks (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/lvm2pv
+test_SupportedFileSystems.cc:672: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/lvm2pv (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/minix
+test_SupportedFileSystems.cc:673: Skip test.  shrink not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/minix (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/nilfs2
+test_SupportedFileSystems.cc:672: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/nilfs2 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/ntfs
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/ntfs (13 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/reiser4
+test_SupportedFileSystems.cc:672: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/reiser4 (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/reiserfs
+test_SupportedFileSystems.cc:672: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/reiserfs (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/udf
+test_SupportedFileSystems.cc:672: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/udf (0 ms)
+[ RUN      ] My/SupportedFileSystemsTest.CreateAndShrink/xfs
+test_SupportedFileSystems.cc:672: Skip test.  create not supported or support not found
+[       OK ] My/SupportedFileSystemsTest.CreateAndShrink/xfs (0 ms)
+[----------] 210 tests from My/SupportedFileSystemsTest (617 ms total)
+
+[----------] Global test environment tear-down
+[==========] 210 tests from 1 test case ran. (618 ms total)
+[  PASSED  ] 210 tests.
+PASS test_SupportedFileSystems (exit status: 0)
