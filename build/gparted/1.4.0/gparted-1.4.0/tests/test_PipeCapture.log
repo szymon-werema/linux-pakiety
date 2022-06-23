@@ -1,0 +1,36 @@
+Running main() from src/gtest_main.cc
+[==========] Running 13 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 13 tests from PipeCaptureTest
+[ RUN      ] PipeCaptureTest.EmptyPipe
+[       OK ] PipeCaptureTest.EmptyPipe (1 ms)
+[ RUN      ] PipeCaptureTest.EmptyPipeWithEOF
+[       OK ] PipeCaptureTest.EmptyPipeWithEOF (0 ms)
+[ RUN      ] PipeCaptureTest.ShortASCIIText
+[       OK ] PipeCaptureTest.ShortASCIIText (0 ms)
+[ RUN      ] PipeCaptureTest.LongASCIIText
+[       OK ] PipeCaptureTest.LongASCIIText (17 ms)
+[ RUN      ] PipeCaptureTest.LongASCIITextWithUpdate
+[       OK ] PipeCaptureTest.LongASCIITextWithUpdate (22 ms)
+[ RUN      ] PipeCaptureTest.MinimalBinaryCrash777973
+[       OK ] PipeCaptureTest.MinimalBinaryCrash777973 (0 ms)
+[ RUN      ] PipeCaptureTest.ReadEmbeddedNULCharacter
+[       OK ] PipeCaptureTest.ReadEmbeddedNULCharacter (0 ms)
+[ RUN      ] PipeCaptureTest.ReadNULByteInMiddleOfMultiByteUTF8Character
+[       OK ] PipeCaptureTest.ReadNULByteInMiddleOfMultiByteUTF8Character (0 ms)
+[ RUN      ] PipeCaptureTest.LineDisciplineCarriageReturn
+[       OK ] PipeCaptureTest.LineDisciplineCarriageReturn (0 ms)
+[ RUN      ] PipeCaptureTest.LineDisciplineCarriageReturn2
+[       OK ] PipeCaptureTest.LineDisciplineCarriageReturn2 (1 ms)
+[ RUN      ] PipeCaptureTest.LineDisciplineBackspace
+[       OK ] PipeCaptureTest.LineDisciplineBackspace (0 ms)
+[ RUN      ] PipeCaptureTest.LineDisciplineBackspace2
+[       OK ] PipeCaptureTest.LineDisciplineBackspace2 (0 ms)
+[ RUN      ] PipeCaptureTest.LineDisciplineSkipCtrlAB
+[       OK ] PipeCaptureTest.LineDisciplineSkipCtrlAB (0 ms)
+[----------] 13 tests from PipeCaptureTest (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 13 tests from 1 test case ran. (41 ms total)
+[  PASSED  ] 13 tests.
+PASS test_PipeCapture (exit status: 0)

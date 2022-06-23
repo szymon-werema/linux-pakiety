@@ -1,0 +1,62 @@
+Running main() from src/gtest_main.cc
+[==========] Running 26 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 26 tests from BlockSpecialTest
+[ RUN      ] BlockSpecialTest.UnnamedBlockSpecialObject
+[       OK ] BlockSpecialTest.UnnamedBlockSpecialObject (0 ms)
+[ RUN      ] BlockSpecialTest.NamedBlockSpecialObjectPlainFile
+[       OK ] BlockSpecialTest.NamedBlockSpecialObjectPlainFile (0 ms)
+[ RUN      ] BlockSpecialTest.NamedBlockSpecialObjectPlainFileDuplicate
+[       OK ] BlockSpecialTest.NamedBlockSpecialObjectPlainFileDuplicate (0 ms)
+[ RUN      ] BlockSpecialTest.NamedBlockSpecialObjectBlockDevice
+[       OK ] BlockSpecialTest.NamedBlockSpecialObjectBlockDevice (0 ms)
+[ RUN      ] BlockSpecialTest.NamedBlockSpecialObjectBlockDeviceDuplicate
+[       OK ] BlockSpecialTest.NamedBlockSpecialObjectBlockDeviceDuplicate (0 ms)
+[ RUN      ] BlockSpecialTest.TwoNamedBlockSpecialObjectBlockDevices
+[       OK ] BlockSpecialTest.TwoNamedBlockSpecialObjectBlockDevices (0 ms)
+[ RUN      ] BlockSpecialTest.NamedBlockSpecialObjectBySymlinkMatches
+[       OK ] BlockSpecialTest.NamedBlockSpecialObjectBySymlinkMatches (0 ms)
+[ RUN      ] BlockSpecialTest.PreRegisteredCacheUsedBeforeFileSystem
+[       OK ] BlockSpecialTest.PreRegisteredCacheUsedBeforeFileSystem (0 ms)
+[ RUN      ] BlockSpecialTest.OperatorEqualsTwoEmptyObjects
+[       OK ] BlockSpecialTest.OperatorEqualsTwoEmptyObjects (0 ms)
+[ RUN      ] BlockSpecialTest.OperatorEqualsSamePlainFiles
+[       OK ] BlockSpecialTest.OperatorEqualsSamePlainFiles (0 ms)
+[ RUN      ] BlockSpecialTest.OperatorEqualsEmptyObjectAndPlainFile
+[       OK ] BlockSpecialTest.OperatorEqualsEmptyObjectAndPlainFile (0 ms)
+[ RUN      ] BlockSpecialTest.OperatorEqualsDifferentPlainFiles
+[       OK ] BlockSpecialTest.OperatorEqualsDifferentPlainFiles (0 ms)
+[ RUN      ] BlockSpecialTest.OperatorEqualsSameBlockDevices
+[       OK ] BlockSpecialTest.OperatorEqualsSameBlockDevices (0 ms)
+[ RUN      ] BlockSpecialTest.OperatorEqualsEmptyObjectAndBlockDevice
+[       OK ] BlockSpecialTest.OperatorEqualsEmptyObjectAndBlockDevice (0 ms)
+[ RUN      ] BlockSpecialTest.OperatorEqualsPlainFileAndBlockDevice
+[       OK ] BlockSpecialTest.OperatorEqualsPlainFileAndBlockDevice (0 ms)
+[ RUN      ] BlockSpecialTest.OperatorEqualsTwoDifferentBlockDevices
+[       OK ] BlockSpecialTest.OperatorEqualsTwoDifferentBlockDevices (0 ms)
+[ RUN      ] BlockSpecialTest.OperatorEqualsSameBlockDevicesWithMinorZero
+[       OK ] BlockSpecialTest.OperatorEqualsSameBlockDevicesWithMinorZero (0 ms)
+[ RUN      ] BlockSpecialTest.OperatorLessThanTwoEmptyObjects
+[       OK ] BlockSpecialTest.OperatorLessThanTwoEmptyObjects (0 ms)
+[ RUN      ] BlockSpecialTest.OperatorLessThanSamePlainFiles
+[       OK ] BlockSpecialTest.OperatorLessThanSamePlainFiles (0 ms)
+[ RUN      ] BlockSpecialTest.OperatorLessThanDifferentPlainFiles
+[       OK ] BlockSpecialTest.OperatorLessThanDifferentPlainFiles (0 ms)
+[ RUN      ] BlockSpecialTest.OperatorLessThanEmptyObjectAndPlainFile
+[       OK ] BlockSpecialTest.OperatorLessThanEmptyObjectAndPlainFile (0 ms)
+[ RUN      ] BlockSpecialTest.OperatorLessThanSameBlockDevices
+[       OK ] BlockSpecialTest.OperatorLessThanSameBlockDevices (0 ms)
+[ RUN      ] BlockSpecialTest.OperatorLessThanEmptyObjectAndBlockDevice
+[       OK ] BlockSpecialTest.OperatorLessThanEmptyObjectAndBlockDevice (0 ms)
+[ RUN      ] BlockSpecialTest.OperatorLessThanPlainFileAndBlockDevice
+[       OK ] BlockSpecialTest.OperatorLessThanPlainFileAndBlockDevice (0 ms)
+[ RUN      ] BlockSpecialTest.OperatorLessThanTwoDifferentBlockDevicesMajorNumbers
+[       OK ] BlockSpecialTest.OperatorLessThanTwoDifferentBlockDevicesMajorNumbers (0 ms)
+[ RUN      ] BlockSpecialTest.OperatorLessThanTwoDifferentBlockDevicesMinorNumbers
+[       OK ] BlockSpecialTest.OperatorLessThanTwoDifferentBlockDevicesMinorNumbers (0 ms)
+[----------] 26 tests from BlockSpecialTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 26 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 26 tests.
+PASS test_BlockSpecial (exit status: 0)

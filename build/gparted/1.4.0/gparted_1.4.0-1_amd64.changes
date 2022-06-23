@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Wed, 22 Jun 2022 23:17:41 +0200
+Source: gparted
+Binary: gparted gparted-dbgsym
+Architecture: source amd64
+Version: 1.4.0-1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: kali <szymon.werema99@gmail.com>
+Changed-By: kali <szymon.werema99@gmail.com>
+Description:
+ gparted    - GParted is a free partition editor for graphically managing your
+Changes:
+ gparted (1.4.0-1) UNRELEASED; urgency=medium
+ .
+   * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ b8d36b0982063b8c3de9c9adfd0dd947e6e81136 2684 gparted_1.4.0-1.dsc
+ 23e69c65b902a0995a892b667ea6122bf1adcee6 4308426 gparted_1.4.0.orig.tar.gz
+ d7fb70fa013fddab658f61fbc0bea92000eb7ece 9596 gparted_1.4.0-1.debian.tar.xz
+ 10eda48928a2613d6f42c61a424e2979067a19de 4683748 gparted-dbgsym_1.4.0-1_amd64.deb
+ 2c81bc56ad8d87f244633b3014522c3782de5f80 22429 gparted_1.4.0-1_amd64.buildinfo
+ f34ff8d5d34098015c6172763c3fc2314ffbfc75 2115164 gparted_1.4.0-1_amd64.deb
+Checksums-Sha256:
+ cac0ab230a40d691c9df5a30e43d403e88a966ea15979dd64ab5a50394b14abd 2684 gparted_1.4.0-1.dsc
+ e5293a792e53fdbeba29c4a834113cd9603d0d639330da931a468bf3687887be 4308426 gparted_1.4.0.orig.tar.gz
+ 0d10aafb1c1a1df8541b8db5dd9584ae00e082c354ceb66c52791a67b350a4ba 9596 gparted_1.4.0-1.debian.tar.xz
+ f98e8e4cea4770e3efcfe2507ea8fc29b366b0c0c02854725c0c3a16327e9095 4683748 gparted-dbgsym_1.4.0-1_amd64.deb
+ b0bae43ff60d992780bdd77acbfdedb6f127236b64f535459ddf1d9bc7ddf833 22429 gparted_1.4.0-1_amd64.buildinfo
+ fd42b9b82df9120223a8126390f71229f7f7d92c7044f98c2051f0cfe99cb25a 2115164 gparted_1.4.0-1_amd64.deb
+Files:
+ 63c635e8f221e031bce3105e77df4ff7 2684 unknown optional gparted_1.4.0-1.dsc
+ 4561261a5f6fbd0c2f071953f94af670 4308426 unknown optional gparted_1.4.0.orig.tar.gz
+ 3967a18b6f9403358296c937d38fc92e 9596 unknown optional gparted_1.4.0-1.debian.tar.xz
+ ba0df74fb5b5521c8369c93e9261b351 4683748 debug optional gparted-dbgsym_1.4.0-1_amd64.deb
+ ade271183e4b497e97fc76be3c0ef125 22429 unknown optional gparted_1.4.0-1_amd64.buildinfo
+ f8f7b0d074fb4254a424d598d4469192 2115164 unknown optional gparted_1.4.0-1_amd64.deb

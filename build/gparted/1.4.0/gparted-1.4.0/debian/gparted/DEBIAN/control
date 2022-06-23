@@ -1,0 +1,11 @@
+Package: gparted
+Version: 1.4.0-1
+Architecture: amd64
+Maintainer: kali <szymon.werema99@gmail.com>
+Installed-Size: 8296
+Depends: libatkmm-1.6-1v5 (>= 2.28.2), libc6 (>= 2.33), libcairomm-1.0-1v5 (>= 1.12.0), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libglibmm-2.4-1v5 (>= 2.66.2), libgtk-3-0 (>= 3.21.4), libgtkmm-3.0-1v5 (>= 3.24.5), libpangomm-1.4-1v5 (>= 2.46.2), libparted-fs-resize0 (>= 3.1), libparted2 (>= 3.1), libsigc++-2.0-0v5 (>= 2.8.0), libstdc++6 (>= 11), libuuid1 (>= 2.16)
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: GParted is a free partition editor for graphically managing your disk partitions.
+ GParted is free software. You have the freedom to run, copy, distribute, study, change, and improve GParted. You do not have to pay money to use GParted. GParted is distributed under the GNU General Public License version 2 or (at your option) any later version.

@@ -1,0 +1,31 @@
+Source: gparted
+Section: unknown
+Priority: optional
+Maintainer: kali <szymon.werema99@gmail.com>
+Rules-Requires-Root: no
+Build-Depends: debhelper-compat (= 13), autotools-dev, oracle-instantclient-basic, libglibmm-2.4-dev:amd64, libxrandr-dev:amd64, pkg-config,
+ gettext, libllvm13:amd64, libharfbuzz-dev:amd64, shared-mime-info, libdbus-1-dev:amd64, libmagic1:amd64, libatspi2.0-dev:amd64,
+ libicu71:amd64, libdatrie-dev:amd64, libxdmcp-dev:amd64, libexpat1-dev:amd64, libxcb-render0-dev:amd64, libgtk-3-dev:amd64, libfreetype-dev:amd64,
+ libbsd0:amd64, libatk1.0-dev:amd64, libparted-dev:amd64, libunistring2:amd64, libblkid-dev:amd64, libxcb1-dev:amd64, llvm-13-linker-tools,
+ polkitd, libxkbcommon-dev:amd64, libxext-dev:amd64, libxi-dev:amd64, gawk, libmagic-mgc, libgtkmm-3.0-dev:amd64,
+ libglib2.0-0:amd64, libxfixes-dev:amd64, libc6-i386, libpcre3-dev:amd64, libmount-dev:amd64, libtiff-dev:amd64, libpolkit-agent-1-0:amd64,
+ libxdamage-dev:amd64, libsigsegv2:amd64, libfribidi-dev:amd64, libgraphite2-dev:amd64, libffi-dev:amd64, libglib2.0-dev:amd64, libffi8:amd64,
+ libmd0:amd64, libatk-bridge2.0-dev:amd64, libgl-dev:amd64, perl-modules-5.34, libpcre2-dev:amd64, libfakeroot:amd64, libselinux1-dev:amd64,
+ libgdk-pixbuf-2.0-dev:amd64, libsepol-dev:amd64, intltool, libedit2:amd64, libxrender-dev:amd64, libx11-dev:amd64, libz3-4:amd64,
+ libpixman-1-dev:amd64, libxinerama-dev:amd64, libfontconfig-dev:amd64, libthai-dev:amd64, libbrotli-dev:amd64, libxcb-shm0-dev:amd64, zlib1g-dev:amd64,
+ file, libxcursor-dev:amd64, libpangomm-1.4-dev:amd64, libxft-dev:amd64, libxml-parser-perl:amd64, libcairomm-1.0-dev:amd64, libgtk-3-bin,
+ libxml2:amd64, libepoxy-dev:amd64, libxau-dev:amd64, libpango1.0-dev:amd64, libegl-dev:amd64, libperl5.34:amd64, libibus-1.0-dev:amd64,
+ libcairo2-dev:amd64, mailcap, libwayland-dev:amd64, uuid-dev:amd64, libpng-dev:amd64, libxtst-dev:amd64,
+ libsigc++-2.0-dev:amd64, libxcomposite-dev:amd64, libpolkit-gobject-1-0:amd64, libatkmm-1.6-dev:amd64, libjpeg62-turbo-dev:amd64, x11proto-dev
+Standards-Version: 4.6.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/gparted
+#Vcs-Git: https://salsa.debian.org/debian/gparted.git
+
+Package: gparted
+Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: GParted is a free partition editor for graphically managing your disk partitions.
+ GParted is free software. You have the freedom to run, copy, distribute, study, change, and improve GParted. You do not have to pay money to use GParted. GParted is distributed under the GNU General Public License version 2 or (at your option) any later version.

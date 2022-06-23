@@ -1,0 +1,12 @@
+Package: gparted-dbgsym
+Source: gparted
+Version: 1.4.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: kali <szymon.werema99@gmail.com>
+Installed-Size: 4889
+Depends: gparted (= 1.4.0-1)
+Section: debug
+Priority: optional
+Description: debug symbols for gparted
+Build-Ids: 467b953fc97700732739f34c673069946223e954
